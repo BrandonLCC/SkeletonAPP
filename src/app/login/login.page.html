@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+ 
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Login</ion-title>
+    </ion-toolbar>
+
+  </ion-header>
+    <h1>SkeletonAPP</h1>
+    <h6>Aqui comienza todo</h6>
+    <h2>Bienvenido!</h2>
+
+  <div class="formulario">
+    <!-- INPUT NOMBRE DE USUARIO -->
+      <!-- Input(Entrada) del nombre de usuario-->
+      <ion-input class = "input-usuario" label="Usuario" labelPlacement="stacked"></ion-input>
+    <!-- INPUT CONTRASEÑA -->
+      <ion-input type="password"  label="Password" labelPlacement="stacked" helperText=""
+   ngModel email></ion-input>
+    <!-- BOTON INGRESAR -->
+
+    <ion-col>
+      <ion-button class="button-Ingresar" expand="full">Ingresar</ion-button>
+    </ion-col>
+    <div class ="div-aa">
+      <a href="#">Crea tu cuenta gratis</a>
+    </div>
+  </div>
+
+  <script>
+    let input = document.querySelector('ion-input');
+    input.addEventListener('ionInput', (ev) => {
+      const value = ev.target.value;
+      // Removes non alphanumeric characters
+      input.value = value.replace(/[^a-zA-Z0-9]+/g, '');
+    });
+  </script>
+
+</ion-content>

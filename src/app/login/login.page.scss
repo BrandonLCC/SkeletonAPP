@@ -1,0 +1,64 @@
+:root {
+    --color-blanco: #ffffff;
+    --color-negro: #000000;
+}
+
+
+ion-content {
+    --background: #ffffff;
+}
+ 
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #000000
+}
+
+h6  {
+    text-align: center;
+    color: #000000
+
+}
+
+h2 {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: #000000
+
+}
+
+.formulario {
+    position: relative;
+    top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+ion-item {
+    --background: #ffffff;
+
+}
+
+ion-input {
+    --background: #ffffff;
+    border-bottom: 2px solid #000000 ;
+    color: #000000;
+    
+
+}
+
+
+.button-Ingresar {
+    color: #000000;
+    --background: #ffffff;
+    border: 3px outset #000000 ;
+    margin: 10px;
+}
+
+.div-aa {
+    position: relative;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
